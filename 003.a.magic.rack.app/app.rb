@@ -19,10 +19,10 @@ require 'twitter'
 
 TWITTER = Twitter::REST::Client.new do |config|
   # Go to https://dev.twitter.com/apps and create a new twitter application and generate these keys and tokens
-  config.consumer_key = "consumer key here"
-  config.consumer_secret = "consumer secret here"
-  config.access_token = "access token here"
-  config.access_token_secret = "token secret here"
+  config.consumer_key = "NljJjdu3jdHATys8d7sYmjZEO"
+  config.consumer_secret = "QkUQZ7UzlQwHWm8HBUdDff522ATDWi0K1YGRsKUonVEh54Jnq5"
+  config.access_token = "1465600190-gX4VNxLtghidNehib20KnKlnOIYcJ4yu1wEvJUy"
+  config.access_token_secret = "znaa6svMvIV6gF6orhax3WGPRxQ1IBxq0Kka3QPZWPBkf"
 end
 
 # What do you think is going on up there? Well the twitter gem gives us a class,
